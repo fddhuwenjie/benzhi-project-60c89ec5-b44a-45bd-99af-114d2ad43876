@@ -1058,7 +1058,12 @@ func (p *RestorationProject) AddInspection(i *InspectionBatch, now time.Time) er
 	if i.Decision == "pass" && (len(i.Findings) > 0 || i.DueAt != nil) {
 		return ErrInvalid
 	}
-	if i.Decision == "pass" {
+	// The sampling-count threshold is only meaningful when a sample list is
+	// explicitly supplied.  When no sample is provided the completeness check
+	// above already validated every procedure, which is the gate for the
+	// legacy full-project inspection; the risk-tier sample quota must not
+	// block that path.
+	if i.Decision == "pass" && len(i.SampledProcedureIDs) > 0 {
 		required := 1
 		if p.RiskLevel == "high" {
 			required = len(p.Procedures)
@@ -1066,7 +1071,7 @@ func (p *RestorationProject) AddInspection(i *InspectionBatch, now time.Time) er
 		if p.RiskLevel == "medium" {
 			required = (len(p.Procedures) + 1) / 2
 		}
-		if len(i.SampledProcedureIDs) < required && !(len(i.SampledProcedureIDs) == 0 && len(p.Procedures) == 1) {
+		if len(i.SampledProcedureIDs) < required {
 			return ErrConflict
 		}
 	}
