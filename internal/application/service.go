@@ -375,6 +375,25 @@ func canonicalMaterials(ms []domain.MaterialEntry) []domain.MaterialEntry {
 	return out
 }
 
+// normalizeIDSet returns a sorted, de-duplicated copy of identifier strings so
+// that idempotency fingerprints for inspection sampling and evidence bindings
+// are stable regardless of caller-side ordering, while any distinct identifier
+// still changes the fingerprint.
+func normalizeIDSet(ids []string) []string {
+	out := make([]string, 0, len(ids))
+	seen := map[string]bool{}
+	for _, id := range ids {
+		id = strings.TrimSpace(id)
+		if id == "" || seen[id] {
+			continue
+		}
+		seen[id] = true
+		out = append(out, id)
+	}
+	sort.Strings(out)
+	return out
+}
+
 func (s *Service) BaselinePreflight(id, plan string, materials interface{}, risk, actor, request string, expected int) (domain.BaselinePreflight, error) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -844,11 +863,21 @@ func (s *Service) Inspect(id, inspector, decision string, findings []string, due
 		normFindings[i] = strings.TrimSpace(normFindings[i])
 	}
 	sort.Strings(normFindings)
+	// The idempotency fingerprint must cover the sampled procedure and evidence
+	// sets so a reused request_id cannot silently return a cached batch whose
+	// sampling scope differs from the retry. Sets are normalized (sorted,
+	// de-duplicated) so a genuine retry with identical content still matches
+	// regardless of caller-side ordering, while any change in the bound
+	// procedure or evidence collection surfaces as a conflict.
+	normSampled := normalizeIDSet(sampled)
+	normEvidence := normalizeIDSet(evidenceIDs)
 	fb, _ := json.Marshal(struct {
 		Inspector, Decision string
 		Findings            []string
 		Due                 *time.Time
-	}{strings.TrimSpace(inspector), strings.TrimSpace(decision), normFindings, due})
+		Sampled             []string
+		Evidence            []string
+	}{strings.TrimSpace(inspector), strings.TrimSpace(decision), normFindings, due, normSampled, normEvidence})
 	fingerprint := fmt.Sprintf("%x", sha256.Sum256(fb))
 	if request != "" {
 		for _, old := range p.Inspections {
