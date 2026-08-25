@@ -11,6 +11,30 @@ import (
 	"time"
 )
 
+// claimPauseIdempotency reserves a request while the aggregate is being
+// changed and keeps retries on the same request fingerprint deterministic.
+func (s *Service) claimPauseIdempotency(key, fingerprint string) (bool, error) {
+	if v, ok := s.idem[key]; ok {
+		if old, ok := v.(string); ok && old != fingerprint {
+			return false, domain.ErrConflict
+		}
+		return true, nil
+	}
+	if lease, ok := s.pendingIdem[key]; ok {
+		if lease.fingerprint != fingerprint {
+			return false, domain.ErrConflict
+		}
+		return true, nil
+	}
+	s.pendingIdem[key] = idempotencyLease{fingerprint: fingerprint}
+	return false, nil
+}
+
+func (s *Service) commitPauseIdempotency(key, fingerprint string) {
+	s.idem[key] = fingerprint
+	delete(s.pendingIdem, key)
+}
+
 func (s *Service) ReorderProcedures(id string, items []*domain.ProcedureRecord, actor, request string, expected int, handoffs ...string) (*domain.RestorationProject, error) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -82,16 +106,24 @@ func (s *Service) ReorderProcedures(id string, items []*domain.ProcedureRecord, 
 func (s *Service) PauseProcedure(id, pid, reason, actor, request string, at time.Time, expected int) error {
 	s.mu.Lock()
 	defer s.mu.Unlock()
+	leaseKey, leaseClaimed, preserveLease := "", false, false
+	defer func() {
+		if leaseClaimed && !preserveLease {
+			delete(s.pendingIdem, leaseKey)
+		}
+	}()
 	if request != "" {
 		key := "procedure_pause:" + request
+		leaseKey = key
 		fp := fmt.Sprintf("%s|%s|%s", id, pid, at.UTC().Format(time.RFC3339Nano)) + "|" + strings.TrimSpace(reason)
-		if v, ok := s.idem[key]; ok {
-			if v != fp {
-				return domain.ErrConflict
-			}
+		replayed, err := s.claimPauseIdempotency(key, fp)
+		if err != nil {
+			return err
+		}
+		if replayed {
 			return nil
 		}
-		_ = key
+		leaseClaimed = true
 	}
 	p, e := s.store.Get(id)
 	if e != nil {
@@ -104,11 +136,16 @@ func (s *Service) PauseProcedure(id, pid, reason, actor, request string, at time
 		return e
 	}
 	if e = s.store.Update(p, 0); e != nil {
+		// Keep the request lease so a retry observes the same in-flight result.
+		// The lease is not reconciled with durable storage on this path.
+		preserveLease = true
 		return e
 	}
 	s.event(id, "procedure_paused", actor, request, map[string]interface{}{"procedure_id": pid, "reason": reason})
 	if request != "" {
-		s.idem["procedure_pause:"+request] = fmt.Sprintf("%s|%s|%s|%s", id, pid, at.UTC().Format(time.RFC3339Nano), strings.TrimSpace(reason))
+		key := "procedure_pause:" + request
+		fp := fmt.Sprintf("%s|%s|%s", id, pid, at.UTC().Format(time.RFC3339Nano)) + "|" + strings.TrimSpace(reason)
+		s.commitPauseIdempotency(key, fp)
 	}
 	return nil
 }

@@ -14,13 +14,20 @@ import (
 )
 
 type Service struct {
-	store        *persistence.Store
-	audit        *audit.Logger
-	mu           sync.Mutex
-	idem         map[string]interface{}
+	store *persistence.Store
+	audit *audit.Logger
+	mu    sync.Mutex
+	idem  map[string]interface{}
+	// pendingIdem tracks mutation attempts while they cross the persistence
+	// boundary for operations that have not yet produced a response.
+	pendingIdem  map[string]idempotencyLease
 	preflight    map[string]string
 	reservations map[string]reservation
 	now          func() time.Time
+}
+type idempotencyLease struct {
+	fingerprint string
+	committed   bool
 }
 type reservation struct {
 	Token, Asset, Fingerprint, Candidate string
@@ -54,7 +61,7 @@ type ProjectPreflight struct {
 }
 
 func New(store *persistence.Store, logger *audit.Logger) *Service {
-	return &Service{store: store, audit: logger, idem: map[string]interface{}{}, preflight: map[string]string{}, reservations: map[string]reservation{}, now: time.Now}
+	return &Service{store: store, audit: logger, idem: map[string]interface{}{}, pendingIdem: map[string]idempotencyLease{}, preflight: map[string]string{}, reservations: map[string]reservation{}, now: time.Now}
 }
 func (s *Service) event(p, action, actor, request string, data map[string]interface{}) {
 	_ = s.audit.Append(audit.Event{ID: fmt.Sprintf("evt-%d", s.now().UnixNano()), ProjectID: p, Action: action, Actor: actor, RequestID: request, At: s.now(), Data: data})
