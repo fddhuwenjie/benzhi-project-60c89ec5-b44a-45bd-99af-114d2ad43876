@@ -402,20 +402,30 @@ func (s *Service) ReassignRemediations(projectID string, ids []string, assignee,
 }
 
 func (s *Service) BaselineHistory(id string, revision int) ([]domain.BaselineRevision, error) {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	if cached, ok := s.baselineHistoryCache[id]; ok {
+		return selectBaselineHistory(cached, revision), nil
+	}
 	p, e := s.store.Get(id)
 	if e != nil {
 		return nil, e
 	}
+	s.baselineHistoryCache[id] = append([]domain.BaselineRevision(nil), p.BaselineHistory...)
+	return selectBaselineHistory(s.baselineHistoryCache[id], revision), nil
+}
+
+func selectBaselineHistory(history []domain.BaselineRevision, revision int) []domain.BaselineRevision {
 	if revision <= 0 {
-		return p.BaselineHistory, nil
+		return append([]domain.BaselineRevision(nil), history...)
 	}
 	out := []domain.BaselineRevision{}
-	for _, x := range p.BaselineHistory {
+	for _, x := range history {
 		if x.Revision == revision {
 			out = append(out, x)
 		}
 	}
-	return out, nil
+	return out
 }
 
 // RollbackBaseline restores a historical, not-yet-executed baseline as a new revision.

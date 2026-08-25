@@ -14,13 +14,14 @@ import (
 )
 
 type Service struct {
-	store        *persistence.Store
-	audit        *audit.Logger
-	mu           sync.Mutex
-	idem         map[string]interface{}
-	preflight    map[string]string
-	reservations map[string]reservation
-	now          func() time.Time
+	store                *persistence.Store
+	audit                *audit.Logger
+	mu                   sync.Mutex
+	idem                 map[string]interface{}
+	preflight            map[string]string
+	baselineHistoryCache map[string][]domain.BaselineRevision
+	reservations         map[string]reservation
+	now                  func() time.Time
 }
 type reservation struct {
 	Token, Asset, Fingerprint, Candidate string
@@ -54,7 +55,12 @@ type ProjectPreflight struct {
 }
 
 func New(store *persistence.Store, logger *audit.Logger) *Service {
-	return &Service{store: store, audit: logger, idem: map[string]interface{}{}, preflight: map[string]string{}, reservations: map[string]reservation{}, now: time.Now}
+	return &Service{
+		store: store, audit: logger,
+		idem: map[string]interface{}{}, preflight: map[string]string{},
+		baselineHistoryCache: map[string][]domain.BaselineRevision{},
+		reservations:         map[string]reservation{}, now: time.Now,
+	}
 }
 func (s *Service) event(p, action, actor, request string, data map[string]interface{}) {
 	_ = s.audit.Append(audit.Event{ID: fmt.Sprintf("evt-%d", s.now().UnixNano()), ProjectID: p, Action: action, Actor: actor, RequestID: request, At: s.now(), Data: data})
