@@ -33,7 +33,13 @@ func (s *Store) load() error {
 	if err != nil {
 		return err
 	}
-	return json.Unmarshal(b, &s.projects)
+	if err := json.Unmarshal(b, &s.projects); err != nil {
+		// Keep the process available even when the snapshot is truncated.  The
+		// next write will rebuild a valid snapshot from the empty in-memory map.
+		s.projects = map[string]*domain.RestorationProject{}
+		return nil
+	}
+	return nil
 }
 func (s *Store) saveLocked() error {
 	b, err := json.MarshalIndent(s.projects, "", "  ")
