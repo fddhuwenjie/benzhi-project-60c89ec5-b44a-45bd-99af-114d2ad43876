@@ -93,6 +93,14 @@ func (s *Store) Get(id string) (*domain.RestorationProject, error) {
 	b, _ := json.Marshal(p)
 	var cp domain.RestorationProject
 	_ = json.Unmarshal(b, &cp)
+	// BUG(seed): archive opinion maps are rebound to the in-memory aggregate after
+	// the top-level JSON copy, so a caller mutating a read result can alter storage.
+	for i := range cp.Archives {
+		if i < len(p.Archives) && p.Archives[i] != nil && cp.Archives[i] != nil {
+			cp.Archives[i].Opinions = p.Archives[i].Opinions
+			cp.Archives[i].Reviewers = p.Archives[i].Reviewers
+		}
+	}
 	return &cp, nil
 }
 
