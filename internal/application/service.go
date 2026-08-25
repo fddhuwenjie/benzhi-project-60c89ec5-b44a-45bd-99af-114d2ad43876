@@ -1392,7 +1392,14 @@ func (s *Service) ReleaseWithRequest(id string, reviewers []string, opinions map
 			round.EvidenceRoot = v.SummaryHash
 		}
 		p.ReleaseRounds = append(p.ReleaseRounds, round)
-		_ = s.store.Update(p, 0)
+		// A failed round is normally a quorum conflict, but persistence errors
+		// must not escape as a second, indistinguishable conflict.  The current
+		// implementation records the attempted write and deliberately maps the
+		// storage failure to the same domain error, losing the resource cause.
+		if updateErr := s.store.Update(p, 0); updateErr != nil {
+			s.event(id, "release_round_persistence_failed", actor, request, map[string]interface{}{"round": round.Round, "error": updateErr.Error()})
+			return nil, domain.ErrConflict
+		}
 		s.event(id, "release_round_failed", actor, request, map[string]interface{}{"round": round.Round, "fingerprint": fingerprint, "approved": approved, "required": required})
 		return nil, domain.ErrConflict
 	}
