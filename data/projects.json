@@ -1,0 +1,3645 @@
+{
+  "RP-20260825-145773": {
+    "id": "RP-20260825-145773",
+    "asset_code": "SELF-self-1787679021933117300",
+    "asset_key": "SELF-SELF-1787679021933117300",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:30:21.934147598Z",
+    "updated_at": "2026-08-25T17:30:21.940997005Z",
+    "procedures": [
+      {
+        "id": "PR-1787679021938835456",
+        "project_id": "RP-20260825-145773",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:29:21Z",
+        "ended_at": "2026-08-25T17:30:21Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-145773",
+        "procedure_id": "PR-1787679021938835456",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:30:21Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787679021933117300",
+    "create_fingerprint": "2c7b58ef8ae55390bc8676fcd136fafbbb87c2e7de09fce5758c6fcada9c7338",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:30:21.936619924Z"
+      }
+    ]
+  },
+  "RP-20260825-160273": {
+    "id": "RP-20260825-160273",
+    "asset_code": "SELF-self-1787680305587363404",
+    "asset_key": "SELF-SELF-1787680305587363404",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:51:45.588161836Z",
+    "updated_at": "2026-08-25T17:51:45.596046481Z",
+    "procedures": [
+      {
+        "id": "PR-1787680305593545971",
+        "project_id": "RP-20260825-160273",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:50:45Z",
+        "ended_at": "2026-08-25T17:51:45Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-160273",
+        "procedure_id": "PR-1787680305593545971",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:51:45Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787680305587363404",
+    "create_fingerprint": "29791f47589dc7d4ac96792400962a8c9bae6e458b54679db53a3a082c106341",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:51:45.590885775Z"
+      }
+    ]
+  },
+  "RP-20260825-175381": {
+    "id": "RP-20260825-175381",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:26:55.498179357Z",
+    "updated_at": "2026-08-25T14:26:55.499787008Z",
+    "procedures": [
+      {
+        "id": "PR-1787668015499785146",
+        "project_id": "",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "revision": 1,
+        "completed": false
+      }
+    ]
+  },
+  "RP-20260825-179728": {
+    "id": "RP-20260825-179728",
+    "asset_code": "SELF-self-1787672111698078801",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:35:11.699181553Z",
+    "updated_at": "2026-08-25T15:35:11.703073112Z",
+    "procedures": [
+      {
+        "id": "PR-1787672111701885672",
+        "project_id": "RP-20260825-179728",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:34:11Z",
+        "ended_at": "2026-08-25T15:35:11Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-179728",
+        "procedure_id": "PR-1787672111701885672",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:35:11Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787672111698078801",
+    "create_fingerprint": "912e95d375a43f0b22adf0005d1dde89beebd2346ea91fb23f0e69091a9e24c9",
+    "baseline_fingerprint": "46521ccf2c0d5e7835241558ca6c5089383c2156a9d27b71e2b33e8c5f3214af"
+  },
+  "RP-20260825-194858": {
+    "id": "RP-20260825-194858",
+    "asset_code": "SELF-self-1787686760760329250",
+    "asset_key": "SELF-SELF-1787686760760329250",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:39:20.761196663Z",
+    "updated_at": "2026-08-25T19:39:20.773432444Z",
+    "procedures": [
+      {
+        "id": "PR-1787686760769421797",
+        "project_id": "RP-20260825-194858",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:38:20Z",
+        "ended_at": "2026-08-25T19:39:20Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-194858",
+        "procedure_id": "PR-1787686760769421797",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:39:20Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787686760760329250",
+    "create_fingerprint": "51c08690ba4be0b90721e6c0a4fdfe721c1e28a4cfa0bb772617ed0cdf43ca54",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:39:20.765357484Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-221876": {
+    "id": "RP-20260825-221876",
+    "asset_code": "SELF-self-1787671106064133407",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:18:26.065223495Z",
+    "updated_at": "2026-08-25T15:18:26.068344998Z",
+    "procedures": [
+      {
+        "id": "PR-1787671106067387030",
+        "project_id": "RP-20260825-221876",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:17:26Z",
+        "ended_at": "2026-08-25T15:18:26Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-221876",
+        "procedure_id": "PR-1787671106067387030",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T15:18:26Z"
+      }
+    ],
+    "create_request_id": "self-1787671106064133407",
+    "create_fingerprint": "587e1dd80d761f85021ed103f914b0a41e810aa5705e4849f5e9ed0718bbbdab"
+  },
+  "RP-20260825-223062": {
+    "id": "RP-20260825-223062",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:52:01.086226565Z",
+    "updated_at": "2026-08-25T14:52:01.089499036Z",
+    "procedures": [
+      {
+        "id": "PR-1787669521088494831",
+        "project_id": "RP-20260825-223062",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T14:51:01Z",
+        "ended_at": "2026-08-25T14:52:01Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787669521089399337"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787669521089399337",
+        "project_id": "RP-20260825-223062",
+        "procedure_id": "PR-1787669521088494831",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T14:52:01Z"
+      }
+    ]
+  },
+  "RP-20260825-242050": {
+    "id": "RP-20260825-242050",
+    "asset_code": "SELF-self-1787684193625429190",
+    "asset_key": "SELF-SELF-1787684193625429190",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:56:33.626243794Z",
+    "updated_at": "2026-08-25T18:56:33.636575003Z",
+    "procedures": [
+      {
+        "id": "PR-1787684193633455888",
+        "project_id": "RP-20260825-242050",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:55:33Z",
+        "ended_at": "2026-08-25T18:56:33Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-242050",
+        "procedure_id": "PR-1787684193633455888",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:56:33Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787684193625429190",
+    "create_fingerprint": "3754b7535e37594f65a532aaa0faa5da67993437b69b0fa6301d96c2a273316b",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:56:33.630096958Z"
+      }
+    ]
+  },
+  "RP-20260825-263568": {
+    "id": "RP-20260825-263568",
+    "asset_code": "SELF-self-1787684970049625795",
+    "asset_key": "SELF-SELF-1787684970049625795",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:09:30.050265422Z",
+    "updated_at": "2026-08-25T19:09:30.060815197Z",
+    "procedures": [
+      {
+        "id": "PR-1787684970057464155",
+        "project_id": "RP-20260825-263568",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:08:30Z",
+        "ended_at": "2026-08-25T19:09:30Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-263568",
+        "procedure_id": "PR-1787684970057464155",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:09:30Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787684970049625795",
+    "create_fingerprint": "d5e680fa2dd02e2bcfdbb357211097b0894f703769a09251f4e44da88c9bf650",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:09:30.053926069Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-271378": {
+    "id": "RP-20260825-271378",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:07:42.432274725Z",
+    "updated_at": "2026-08-25T15:07:42.435311315Z",
+    "procedures": [
+      {
+        "id": "PR-1787670462434292349",
+        "project_id": "RP-20260825-271378",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:06:42Z",
+        "ended_at": "2026-08-25T15:07:42Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787670462435168254"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787670462435168254",
+        "project_id": "RP-20260825-271378",
+        "procedure_id": "PR-1787670462434292349",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T15:07:42Z"
+      }
+    ]
+  },
+  "RP-20260825-28011": {
+    "id": "RP-20260825-28011",
+    "asset_code": "SELF-self-1787676634320349981",
+    "asset_key": "SELF-SELF-1787676634320349981",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:50:34.32102978Z",
+    "updated_at": "2026-08-25T16:50:34.327474692Z",
+    "procedures": [
+      {
+        "id": "PR-1787676634325145391",
+        "project_id": "RP-20260825-28011",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:49:34Z",
+        "ended_at": "2026-08-25T16:50:34Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-28011",
+        "procedure_id": "PR-1787676634325145391",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:50:34Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787676634320349981",
+    "create_fingerprint": "ae18674682efbf5af39e9b11d22cdb33adda5a76251794f95607dff40e52ff1c",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-296206": {
+    "id": "RP-20260825-296206",
+    "asset_code": "SELF-self-1787685689607566704",
+    "asset_key": "SELF-SELF-1787685689607566704",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:21:29.608297933Z",
+    "updated_at": "2026-08-25T19:21:29.621376052Z",
+    "procedures": [
+      {
+        "id": "PR-1787685689616486756",
+        "project_id": "RP-20260825-296206",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:20:29Z",
+        "ended_at": "2026-08-25T19:21:29Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-296206",
+        "procedure_id": "PR-1787685689616486756",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:21:29Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787685689607566704",
+    "create_fingerprint": "cdc7c6c00ba96f363d2a2b87498275dc73b06ba2b07995c73eae679b2815175d",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:21:29.61260442Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-316144": {
+    "id": "RP-20260825-316144",
+    "asset_code": "SELF-self-1787672287141426498",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:38:07.142318318Z",
+    "updated_at": "2026-08-25T15:38:07.146541682Z",
+    "procedures": [
+      {
+        "id": "PR-1787672287145173397",
+        "project_id": "RP-20260825-316144",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:37:07Z",
+        "ended_at": "2026-08-25T15:38:07Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-316144",
+        "procedure_id": "PR-1787672287145173397",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:38:07Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787672287141426498",
+    "create_fingerprint": "bd7457e922c034af102af865e68fc613bef4b93cbc6c373bc6b046c1f7f12c9a",
+    "baseline_fingerprint": "46521ccf2c0d5e7835241558ca6c5089383c2156a9d27b71e2b33e8c5f3214af"
+  },
+  "RP-20260825-335828": {
+    "id": "RP-20260825-335828",
+    "asset_code": "SELF-self-1787674591060491833",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:16:31.061337495Z",
+    "updated_at": "2026-08-25T16:16:31.066100192Z",
+    "procedures": [
+      {
+        "id": "PR-1787674591064596803",
+        "project_id": "RP-20260825-335828",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:15:31Z",
+        "ended_at": "2026-08-25T16:16:31Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-335828",
+        "procedure_id": "PR-1787674591064596803",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:16:31Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787674591060491833",
+    "create_fingerprint": "cc3cb23c8bf13eab566038770aa432d48ccccc115c98c66575c598d4b6423556",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-354849": {
+    "id": "RP-20260825-354849",
+    "asset_code": "SELF-self-1787681099690701722",
+    "asset_key": "SELF-SELF-1787681099690701722",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:04:59.691356463Z",
+    "updated_at": "2026-08-25T18:04:59.699770755Z",
+    "procedures": [
+      {
+        "id": "PR-1787681099697248670",
+        "project_id": "RP-20260825-354849",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:03:59Z",
+        "ended_at": "2026-08-25T18:04:59Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-354849",
+        "procedure_id": "PR-1787681099697248670",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:04:59Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681099690701722",
+    "create_fingerprint": "a54e690e608fdae73f28344f27468ae4eb9f6dde1b066530c11a98e56c48b23f",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:04:59.694511545Z"
+      }
+    ]
+  },
+  "RP-20260825-372826": {
+    "id": "RP-20260825-372826",
+    "asset_code": "SELF-self-1787682801453603020",
+    "asset_key": "SELF-SELF-1787682801453603020",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:33:21.454374359Z",
+    "updated_at": "2026-08-25T18:33:21.463303248Z",
+    "procedures": [
+      {
+        "id": "PR-1787682801460477658",
+        "project_id": "RP-20260825-372826",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:32:21Z",
+        "ended_at": "2026-08-25T18:33:21Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-372826",
+        "procedure_id": "PR-1787682801460477658",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:33:21Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787682801453603020",
+    "create_fingerprint": "8a00f1c5a3ab3427e0d1e43be09ef8ead718a293d1015b56433372b89ee7b4f4",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:33:21.457699009Z"
+      }
+    ]
+  },
+  "RP-20260825-38594": {
+    "id": "RP-20260825-38594",
+    "asset_code": "SELF-self-1787681871966267405",
+    "asset_key": "SELF-SELF-1787681871966267405",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:17:51.967040578Z",
+    "updated_at": "2026-08-25T18:17:51.975952307Z",
+    "procedures": [
+      {
+        "id": "PR-1787681871973247321",
+        "project_id": "RP-20260825-38594",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:16:51Z",
+        "ended_at": "2026-08-25T18:17:51Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-38594",
+        "procedure_id": "PR-1787681871973247321",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:17:51Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681871966267405",
+    "create_fingerprint": "11d38c6d6b356cb4bbcc7cbb8bf968e14ee5b24ca36967b3173f0f8e2e03c50d",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:17:51.970113351Z"
+      }
+    ]
+  },
+  "RP-20260825-389504": {
+    "id": "RP-20260825-389504",
+    "asset_code": "SELF-self-1787678296326356111",
+    "asset_key": "SELF-SELF-1787678296326356111",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:18:16.327391078Z",
+    "updated_at": "2026-08-25T17:18:16.33435107Z",
+    "procedures": [
+      {
+        "id": "PR-1787678296332235667",
+        "project_id": "RP-20260825-389504",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:17:16Z",
+        "ended_at": "2026-08-25T17:18:16Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-389504",
+        "procedure_id": "PR-1787678296332235667",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:18:16Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787678296326356111",
+    "create_fingerprint": "cf17a7ea1d85a94abbeb291af8bf0622c7e2ee22517b87cd2f70aadbc7337b62",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:18:16.329913581Z"
+      }
+    ]
+  },
+  "RP-20260825-395463": {
+    "id": "RP-20260825-395463",
+    "asset_code": "SELF-self-1787674627845742946",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:17:07.846397176Z",
+    "updated_at": "2026-08-25T16:17:07.8515753Z",
+    "procedures": [
+      {
+        "id": "PR-1787674627849998065",
+        "project_id": "RP-20260825-395463",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:16:07Z",
+        "ended_at": "2026-08-25T16:17:07Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-395463",
+        "procedure_id": "PR-1787674627849998065",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:17:07Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787674627845742946",
+    "create_fingerprint": "d4f174d686bde7c35e2138432f4413a3e3aab06ec469f9e27d19e700dd6432a6",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-407519": {
+    "id": "RP-20260825-407519",
+    "asset_code": "SELF-self-1787687104752579514",
+    "asset_key": "SELF-SELF-1787687104752579514",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:45:04.753409364Z",
+    "updated_at": "2026-08-25T19:45:04.766175332Z",
+    "procedures": [
+      {
+        "id": "PR-1787687104762150757",
+        "project_id": "RP-20260825-407519",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:44:04Z",
+        "ended_at": "2026-08-25T19:45:04Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-407519",
+        "procedure_id": "PR-1787687104762150757",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:45:04Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787687104752579514",
+    "create_fingerprint": "7986bd5b0d225b8e086387458932b927975b2f04c1dc02f1dc53f8ab8cbf64ff",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:45:04.757826217Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-423238": {
+    "id": "RP-20260825-423238",
+    "asset_code": "SELF-self-1787672213353478620",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:36:53.354426901Z",
+    "updated_at": "2026-08-25T15:36:53.35855329Z",
+    "procedures": [
+      {
+        "id": "PR-1787672213357143523",
+        "project_id": "RP-20260825-423238",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:35:53Z",
+        "ended_at": "2026-08-25T15:36:53Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-423238",
+        "procedure_id": "PR-1787672213357143523",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:36:53Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787672213353478620",
+    "create_fingerprint": "3e83b5dfb520d06b034c9f1d7381ac9d623281fc9b47d545bcfa5cc0263d4a4a",
+    "baseline_fingerprint": "46521ccf2c0d5e7835241558ca6c5089383c2156a9d27b71e2b33e8c5f3214af"
+  },
+  "RP-20260825-427361": {
+    "id": "RP-20260825-427361",
+    "asset_code": "SELF-self-1787681247981670734",
+    "asset_key": "SELF-SELF-1787681247981670734",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:07:27.982429126Z",
+    "updated_at": "2026-08-25T18:07:27.991676842Z",
+    "procedures": [
+      {
+        "id": "PR-1787681247988823275",
+        "project_id": "RP-20260825-427361",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:06:27Z",
+        "ended_at": "2026-08-25T18:07:27Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-427361",
+        "procedure_id": "PR-1787681247988823275",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:07:27Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681247981670734",
+    "create_fingerprint": "96c286a71542ca6b56a573d67764b786f9d2d00c3bd1e85a352b2e34eeb9a2b7",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:07:27.98561996Z"
+      }
+    ]
+  },
+  "RP-20260825-447316": {
+    "id": "RP-20260825-447316",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:28:50.977450898Z",
+    "updated_at": "2026-08-25T14:28:50.979751872Z",
+    "procedures": [
+      {
+        "id": "PR-1787668130979041597",
+        "project_id": "RP-20260825-447316",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T14:27:50Z",
+        "ended_at": "2026-08-25T14:28:50Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787668130979700338"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787668130979700338",
+        "project_id": "RP-20260825-447316",
+        "procedure_id": "PR-1787668130979041597",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T14:28:50Z"
+      }
+    ]
+  },
+  "RP-20260825-458861": {
+    "id": "RP-20260825-458861",
+    "asset_code": "SELF-self-1787671218044517246",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:20:18.045460429Z",
+    "updated_at": "2026-08-25T15:20:18.049575348Z",
+    "procedures": [
+      {
+        "id": "PR-1787671218048400997",
+        "project_id": "RP-20260825-458861",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:19:18Z",
+        "ended_at": "2026-08-25T15:20:18Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-458861",
+        "procedure_id": "PR-1787671218048400997",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T15:20:18Z"
+      }
+    ],
+    "create_request_id": "self-1787671218044517246",
+    "create_fingerprint": "3d177cd5d03c826b5e44b24248a659301a6bdb5f8a07b2514aeddcfa09ab505f"
+  },
+  "RP-20260825-465372": {
+    "id": "RP-20260825-465372",
+    "asset_code": "SELF-self-1787676474242730803",
+    "asset_key": "SELF-SELF-1787676474242730803",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:47:54.24346695Z",
+    "updated_at": "2026-08-25T16:47:54.249102122Z",
+    "procedures": [
+      {
+        "id": "PR-1787676474247241763",
+        "project_id": "RP-20260825-465372",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:46:54Z",
+        "ended_at": "2026-08-25T16:47:54Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-465372",
+        "procedure_id": "PR-1787676474247241763",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:47:54Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787676474242730803",
+    "create_fingerprint": "9f969b4ed70491479ef211d6751e528cc24c6d3ec45080a171fdae3a63dce2fa",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-494488": {
+    "id": "RP-20260825-494488",
+    "asset_code": "SELF-self-1787675503017771007",
+    "asset_key": "SELF-SELF-1787675503017771007",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:31:43.018496193Z",
+    "updated_at": "2026-08-25T16:31:43.024069381Z",
+    "procedures": [
+      {
+        "id": "PR-1787675503022157029",
+        "project_id": "RP-20260825-494488",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:30:43Z",
+        "ended_at": "2026-08-25T16:31:43Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-494488",
+        "procedure_id": "PR-1787675503022157029",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:31:43Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787675503017771007",
+    "create_fingerprint": "ca70b5628fc8bceb15e5d34089d57893fafdf6829bdc9ed1aa79371618042c84",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-512710": {
+    "id": "RP-20260825-512710",
+    "asset_code": "SELF-self-1787675340664701990",
+    "asset_key": "SELF-SELF-1787675340664701990",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:29:00.665514512Z",
+    "updated_at": "2026-08-25T16:29:00.671031196Z",
+    "procedures": [
+      {
+        "id": "PR-1787675340669344871",
+        "project_id": "RP-20260825-512710",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:28:00Z",
+        "ended_at": "2026-08-25T16:29:00Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-512710",
+        "procedure_id": "PR-1787675340669344871",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:29:00Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787675340664701990",
+    "create_fingerprint": "0dbc962be06e1ec2eaea7fb73b5f78f6f5fa5353a52c9ae92729ef012822acba",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-56672": {
+    "id": "RP-20260825-56672",
+    "asset_code": "SELF-self-1787681187579325719",
+    "asset_key": "SELF-SELF-1787681187579325719",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:06:27.58005817Z",
+    "updated_at": "2026-08-25T18:06:27.588956878Z",
+    "procedures": [
+      {
+        "id": "PR-1787681187586026667",
+        "project_id": "RP-20260825-56672",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:05:27Z",
+        "ended_at": "2026-08-25T18:06:27Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-56672",
+        "procedure_id": "PR-1787681187586026667",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:06:27Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681187579325719",
+    "create_fingerprint": "3f27d0e0f62e491e3b198b54829d5238adf6844051d07af1d69a99b22a4e2e7a",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:06:27.58319011Z"
+      }
+    ]
+  },
+  "RP-20260825-598192": {
+    "id": "RP-20260825-598192",
+    "asset_code": "SELF-self-1787683119448752438",
+    "asset_key": "SELF-SELF-1787683119448752438",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:38:39.449599908Z",
+    "updated_at": "2026-08-25T18:38:39.458744391Z",
+    "procedures": [
+      {
+        "id": "PR-1787683119455802031",
+        "project_id": "RP-20260825-598192",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:37:39Z",
+        "ended_at": "2026-08-25T18:38:39Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-598192",
+        "procedure_id": "PR-1787683119455802031",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:38:39Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787683119448752438",
+    "create_fingerprint": "607f25b2cdfa03ed0fbd5de38a97fa7c8acc61e54b689e577620a760c0794d07",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:38:39.45285004Z"
+      }
+    ]
+  },
+  "RP-20260825-598353": {
+    "id": "RP-20260825-598353",
+    "asset_code": "SELF-self-1787673423049728286",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:57:03.050600526Z",
+    "updated_at": "2026-08-25T15:57:03.055358719Z",
+    "procedures": [
+      {
+        "id": "PR-1787673423053679501",
+        "project_id": "RP-20260825-598353",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:56:03Z",
+        "ended_at": "2026-08-25T15:57:03Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-598353",
+        "procedure_id": "PR-1787673423053679501",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:57:03Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787673423049728286",
+    "create_fingerprint": "b21c27593fdad0753db6e80faae811deb1b4c77e364761c5869e276b62735ab4",
+    "baseline_fingerprint": "14802fc05a52d8c25a0e6441a7f60544622087d8ec76567efe3793ca243b8758"
+  },
+  "RP-20260825-601006": {
+    "id": "RP-20260825-601006",
+    "asset_code": "SELF-self-1787685071174537887",
+    "asset_key": "SELF-SELF-1787685071174537887",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:11:11.17560283Z",
+    "updated_at": "2026-08-25T19:11:11.1885589Z",
+    "procedures": [
+      {
+        "id": "PR-1787685071184264629",
+        "project_id": "RP-20260825-601006",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:10:11Z",
+        "ended_at": "2026-08-25T19:11:11Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-601006",
+        "procedure_id": "PR-1787685071184264629",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:11:11Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787685071174537887",
+    "create_fingerprint": "04ab28f031c015037dc2a5386e35edd4e0345688cb10e2066be52b20e6dc2519",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:11:11.179641635Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-609384": {
+    "id": "RP-20260825-609384",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:27:56.6516124Z",
+    "updated_at": "2026-08-25T14:27:56.652995082Z",
+    "procedures": [
+      {
+        "id": "PR-1787668076652993234",
+        "project_id": "RP-20260825-609384",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "revision": 1,
+        "completed": false
+      }
+    ]
+  },
+  "RP-20260825-648741": {
+    "id": "RP-20260825-648741",
+    "asset_code": "SELF-self-1787671163550779989",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:19:23.551650913Z",
+    "updated_at": "2026-08-25T15:19:23.555549426Z",
+    "procedures": [
+      {
+        "id": "PR-1787671163554379967",
+        "project_id": "RP-20260825-648741",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:18:23Z",
+        "ended_at": "2026-08-25T15:19:23Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-648741",
+        "procedure_id": "PR-1787671163554379967",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T15:19:23Z"
+      }
+    ],
+    "create_request_id": "self-1787671163550779989",
+    "create_fingerprint": "7e7f3549ed934e1e82adbcb159cb7dc2c780642621d75060c15924891a23b3a9"
+  },
+  "RP-20260825-665327": {
+    "id": "RP-20260825-665327",
+    "asset_code": "SELF-self-1787683207974897528",
+    "asset_key": "SELF-SELF-1787683207974897528",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:40:07.975667026Z",
+    "updated_at": "2026-08-25T18:40:07.98596861Z",
+    "procedures": [
+      {
+        "id": "PR-1787683207982498221",
+        "project_id": "RP-20260825-665327",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:39:07Z",
+        "ended_at": "2026-08-25T18:40:07Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-665327",
+        "procedure_id": "PR-1787683207982498221",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:40:07Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787683207974897528",
+    "create_fingerprint": "42cd052b4df83983ee49c5b18c35769fa5f2aeed4fb6b8f983da20e01634d851",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:40:07.979168494Z"
+      }
+    ]
+  },
+  "RP-20260825-686239": {
+    "id": "RP-20260825-686239",
+    "asset_code": "SELF-self-1787675544150817395",
+    "asset_key": "SELF-SELF-1787675544150817395",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T16:32:24.151687962Z",
+    "updated_at": "2026-08-25T16:32:24.157571321Z",
+    "procedures": [
+      {
+        "id": "PR-1787675544155723064",
+        "project_id": "RP-20260825-686239",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T16:31:24Z",
+        "ended_at": "2026-08-25T16:32:24Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-686239",
+        "procedure_id": "PR-1787675544155723064",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T16:32:24Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787675544150817395",
+    "create_fingerprint": "6dacd3ffdec08873d92b38092241090e01e31eff36ee5f0d2c9c1a500cef7a40",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b"
+  },
+  "RP-20260825-716896": {
+    "id": "RP-20260825-716896",
+    "asset_code": "SELF-self-1787679085200705678",
+    "asset_key": "SELF-SELF-1787679085200705678",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:31:25.201718337Z",
+    "updated_at": "2026-08-25T17:31:25.209066974Z",
+    "procedures": [
+      {
+        "id": "PR-1787679085206586773",
+        "project_id": "RP-20260825-716896",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:30:25Z",
+        "ended_at": "2026-08-25T17:31:25Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-716896",
+        "procedure_id": "PR-1787679085206586773",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:31:25Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787679085200705678",
+    "create_fingerprint": "3c28be2a23cb0c424fead63411e3924825a84c4f93f914eda4e9a6ed735d1a65",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:31:25.204329582Z"
+      }
+    ]
+  },
+  "RP-20260825-751164": {
+    "id": "RP-20260825-751164",
+    "asset_code": "SELF-self-1787686667894019317",
+    "asset_key": "SELF-SELF-1787686667894019317",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:37:47.894752869Z",
+    "updated_at": "2026-08-25T19:37:47.907667642Z",
+    "procedures": [
+      {
+        "id": "PR-1787686667903785451",
+        "project_id": "RP-20260825-751164",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:36:47Z",
+        "ended_at": "2026-08-25T19:37:47Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-751164",
+        "procedure_id": "PR-1787686667903785451",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:37:47Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787686667894019317",
+    "create_fingerprint": "0a63348dffbfc1006c89494cdbd8ae6cf0e9bd4ce5b3d5f9cf51a103398fb7a8",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:37:47.899605317Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-751617": {
+    "id": "RP-20260825-751617",
+    "asset_code": "SELF-self-1787681924230925885",
+    "asset_key": "SELF-SELF-1787681924230925885",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:18:44.231753387Z",
+    "updated_at": "2026-08-25T18:18:44.241465163Z",
+    "procedures": [
+      {
+        "id": "PR-1787681924238350143",
+        "project_id": "RP-20260825-751617",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:17:44Z",
+        "ended_at": "2026-08-25T18:18:44Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-751617",
+        "procedure_id": "PR-1787681924238350143",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:18:44Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681924230925885",
+    "create_fingerprint": "77484d236f4b4c9bcd3b674091fc920d665139464819d9526a4fd121db93c461",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:18:44.235112362Z"
+      }
+    ]
+  },
+  "RP-20260825-773158": {
+    "id": "RP-20260825-773158",
+    "asset_code": "SELF-self-1787686805858627589",
+    "asset_key": "SELF-SELF-1787686805858627589",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:40:05.859774777Z",
+    "updated_at": "2026-08-25T19:40:05.874114987Z",
+    "procedures": [
+      {
+        "id": "PR-1787686805868640394",
+        "project_id": "RP-20260825-773158",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:39:05Z",
+        "ended_at": "2026-08-25T19:40:05Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-773158",
+        "procedure_id": "PR-1787686805868640394",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:40:05Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787686805858627589",
+    "create_fingerprint": "47189df4a3ed12a93f278ba4ae1822c9fda0a39e63e2f9e3b450fffa00adbf19",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:40:05.864427732Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-786103": {
+    "id": "RP-20260825-786103",
+    "asset_code": "SELF-self-1787682949903933812",
+    "asset_key": "SELF-SELF-1787682949903933812",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:35:49.904788891Z",
+    "updated_at": "2026-08-25T18:35:49.914441327Z",
+    "procedures": [
+      {
+        "id": "PR-1787682949911489123",
+        "project_id": "RP-20260825-786103",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:34:49Z",
+        "ended_at": "2026-08-25T18:35:49Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-786103",
+        "procedure_id": "PR-1787682949911489123",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:35:49Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787682949903933812",
+    "create_fingerprint": "90d1e670b59278f3b5b9fac6fad80d6c563cedec1ac391dc77fccf680a324bf3",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:35:49.908395613Z"
+      }
+    ]
+  },
+  "RP-20260825-787489": {
+    "id": "RP-20260825-787489",
+    "asset_code": "SELF-self-1787678977990904173",
+    "asset_key": "SELF-SELF-1787678977990904173",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:29:37.991789008Z",
+    "updated_at": "2026-08-25T17:29:37.99869059Z",
+    "procedures": [
+      {
+        "id": "PR-1787678977996381748",
+        "project_id": "RP-20260825-787489",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:28:37Z",
+        "ended_at": "2026-08-25T17:29:37Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-787489",
+        "procedure_id": "PR-1787678977996381748",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:29:37Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787678977990904173",
+    "create_fingerprint": "c35100389a2bcf5b443122b44f276732b094b70c8014eedfbcaff3e757cb0cce",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:29:37.994148141Z"
+      }
+    ]
+  },
+  "RP-20260825-794910": {
+    "id": "RP-20260825-794910",
+    "asset_code": "SELF-self-1787685915003079479",
+    "asset_key": "SELF-SELF-1787685915003079479",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:25:15.003796424Z",
+    "updated_at": "2026-08-25T19:25:15.015731861Z",
+    "procedures": [
+      {
+        "id": "PR-1787685915011914676",
+        "project_id": "RP-20260825-794910",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:24:15Z",
+        "ended_at": "2026-08-25T19:25:15Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-794910",
+        "procedure_id": "PR-1787685915011914676",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:25:15Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787685915003079479",
+    "create_fingerprint": "b8c1798e88edb1c057b976d9f2855354b5a495dfef84910107e41ddfe4b15748",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:25:15.007913202Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-808775": {
+    "id": "RP-20260825-808775",
+    "asset_code": "A-1",
+    "asset_key": "A-1",
+    "title": "T",
+    "custodian": "C",
+    "plan_revision": 2,
+    "plan": "方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "baselined",
+    "created_at": "2026-08-25T17:47:01.302819658Z",
+    "updated_at": "2026-08-25T17:47:11.608201971Z",
+    "create_request_id": "r1",
+    "create_fingerprint": "be61b93ff4e888d052bc794bcaeefe28e96a17be55b9ef852fcb5b76e9cbf566",
+    "baseline_request_id": "b1",
+    "baseline_fingerprint": "e977c9ddf130c76fdf95f2cd8e93d140eeee426f15b3804101bce7477642fad0",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "a",
+        "at": "2026-08-25T17:47:11.608207093Z"
+      }
+    ]
+  },
+  "RP-20260825-834371": {
+    "id": "RP-20260825-834371",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:29:57.016837379Z",
+    "updated_at": "2026-08-25T14:29:57.019134724Z",
+    "procedures": [
+      {
+        "id": "PR-1787668197018423154",
+        "project_id": "RP-20260825-834371",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T14:28:57Z",
+        "ended_at": "2026-08-25T14:29:57Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787668197019086450"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787668197019086450",
+        "project_id": "RP-20260825-834371",
+        "procedure_id": "PR-1787668197018423154",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T14:29:57Z"
+      }
+    ]
+  },
+  "RP-20260825-890241": {
+    "id": "RP-20260825-890241",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:33:18.0098933Z",
+    "updated_at": "2026-08-25T14:33:18.012367831Z",
+    "procedures": [
+      {
+        "id": "PR-1787668398011569776",
+        "project_id": "RP-20260825-890241",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T14:32:18Z",
+        "ended_at": "2026-08-25T14:33:18Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787668398012321449"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787668398012321449",
+        "project_id": "RP-20260825-890241",
+        "procedure_id": "PR-1787668398011569776",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T14:33:18Z"
+      }
+    ]
+  },
+  "RP-20260825-891085": {
+    "id": "RP-20260825-891085",
+    "asset_code": "SELF-self-1787681153591206949",
+    "asset_key": "SELF-SELF-1787681153591206949",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T18:05:53.591892773Z",
+    "updated_at": "2026-08-25T18:05:53.599847768Z",
+    "procedures": [
+      {
+        "id": "PR-1787681153597393261",
+        "project_id": "RP-20260825-891085",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T18:04:53Z",
+        "ended_at": "2026-08-25T18:05:53Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-891085",
+        "procedure_id": "PR-1787681153597393261",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T18:05:53Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787681153591206949",
+    "create_fingerprint": "bb79ade3494b0eae4a6d25c1c79688fe2da3fa4f7cc663f29331d7ed39d2a290",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T18:05:53.59469967Z"
+      }
+    ]
+  },
+  "RP-20260825-89238": {
+    "id": "RP-20260825-89238",
+    "asset_code": "SELF-self-1787673188045248054",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:53:08.046091178Z",
+    "updated_at": "2026-08-25T15:53:08.050694947Z",
+    "procedures": [
+      {
+        "id": "PR-1787673188049301477",
+        "project_id": "RP-20260825-89238",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:52:08Z",
+        "ended_at": "2026-08-25T15:53:08Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-89238",
+        "procedure_id": "PR-1787673188049301477",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:53:08Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787673188045248054",
+    "create_fingerprint": "fe0e89c74d28239c35a519282cf6cfedc0ac0f3b7a93f87dcae12d8979c8d759",
+    "baseline_fingerprint": "46521ccf2c0d5e7835241558ca6c5089383c2156a9d27b71e2b33e8c5f3214af"
+  },
+  "RP-20260825-921279": {
+    "id": "RP-20260825-921279",
+    "asset_code": "SELF-self-1787685603727144960",
+    "asset_key": "SELF-SELF-1787685603727144960",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:20:03.727922893Z",
+    "updated_at": "2026-08-25T19:20:03.73920256Z",
+    "procedures": [
+      {
+        "id": "PR-1787685603735646471",
+        "project_id": "RP-20260825-921279",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:19:03Z",
+        "ended_at": "2026-08-25T19:20:03Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-921279",
+        "procedure_id": "PR-1787685603735646471",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:20:03Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787685603727144960",
+    "create_fingerprint": "4741b18ee782f6432634e2c5e3b8dcc19fd72b79645f0e6ab8662fd5d42103c2",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:20:03.731774108Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-941091": {
+    "id": "RP-20260825-941091",
+    "asset_code": "SELF-self-1787684910545093621",
+    "asset_key": "SELF-SELF-1787684910545093621",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T19:08:30.545942728Z",
+    "updated_at": "2026-08-25T19:08:30.556604568Z",
+    "procedures": [
+      {
+        "id": "PR-1787684910553312439",
+        "project_id": "RP-20260825-941091",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T19:07:30Z",
+        "ended_at": "2026-08-25T19:08:30Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-941091",
+        "procedure_id": "PR-1787684910553312439",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T19:08:30Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787684910545093621",
+    "create_fingerprint": "96a98efbed5f445e31a1c092dc000e3ebee5d2b072e43c70e634bd5ed04a6f16",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T19:08:30.549813045Z",
+        "changes": [
+          {
+            "after": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+            "before": "",
+            "field": "plan",
+            "type": "modified"
+          },
+          {
+            "after": {
+              "batch": "legacy",
+              "name": "材料A",
+              "quantity": 1,
+              "unit": "piece"
+            },
+            "field": "materials",
+            "type": "added"
+          },
+          {
+            "after": "low",
+            "before": "",
+            "field": "risk_level",
+            "type": "modified"
+          }
+        ]
+      }
+    ]
+  },
+  "RP-20260825-961639": {
+    "id": "RP-20260825-961639",
+    "asset_code": "SELF-self-1787679777823091876",
+    "asset_key": "SELF-SELF-1787679777823091876",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 3,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T17:42:57.823963348Z",
+    "updated_at": "2026-08-25T17:42:57.831781265Z",
+    "procedures": [
+      {
+        "id": "PR-1787679777829382298",
+        "project_id": "RP-20260825-961639",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T17:41:57Z",
+        "ended_at": "2026-08-25T17:42:57Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true,
+        "trend_status": "normal",
+        "effective_work_ns": 60000000000
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-961639",
+        "procedure_id": "PR-1787679777829382298",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T17:42:57Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787679777823091876",
+    "create_fingerprint": "98e2cd6bf484cc244cbd19c56e739031b6437dcbfa6aa8c63f554457b3968e6e",
+    "baseline_fingerprint": "04573c1b7c8b45232b8e08a8ddbb867d309d831b0aa54e79776337de7721521b",
+    "baseline_history": [
+      {
+        "revision": 2,
+        "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+        "materials": [
+          {
+            "name": "材料A",
+            "batch": "legacy",
+            "quantity": 1,
+            "unit": "piece"
+          }
+        ],
+        "risk_level": "low",
+        "operator": "self-check",
+        "at": "2026-08-25T17:42:57.826866655Z"
+      }
+    ]
+  },
+  "RP-20260825-967772": {
+    "id": "RP-20260825-967772",
+    "asset_code": "SELF-001",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T14:32:37.565971072Z",
+    "updated_at": "2026-08-25T14:32:37.568357391Z",
+    "procedures": [
+      {
+        "id": "PR-1787668357567584832",
+        "project_id": "RP-20260825-967772",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T14:31:37Z",
+        "ended_at": "2026-08-25T14:32:37Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "EV-1787668357568311326"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-1787668357568311326",
+        "project_id": "RP-20260825-967772",
+        "procedure_id": "PR-1787668357567584832",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "abc",
+        "captured_at": "2026-08-25T14:32:37Z"
+      }
+    ]
+  },
+  "RP-20260825-973941": {
+    "id": "RP-20260825-973941",
+    "asset_code": "SELF-self-1787673333183248402",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:55:33.18397552Z",
+    "updated_at": "2026-08-25T15:55:33.188187343Z",
+    "procedures": [
+      {
+        "id": "PR-1787673333186790657",
+        "project_id": "RP-20260825-973941",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:54:33Z",
+        "ended_at": "2026-08-25T15:55:33Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-973941",
+        "procedure_id": "PR-1787673333186790657",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:55:33Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787673333183248402",
+    "create_fingerprint": "850bdad1f1fe8f06d127c645a68d1e042d6b2186d2d0c8a30d6038e907347ac8",
+    "baseline_fingerprint": "46521ccf2c0d5e7835241558ca6c5089383c2156a9d27b71e2b33e8c5f3214af"
+  },
+  "RP-20260825-997440": {
+    "id": "RP-20260825-997440",
+    "asset_code": "SELF-self-1787673536820383772",
+    "title": "自检文物",
+    "custodian": "系统",
+    "plan_revision": 2,
+    "plan": "标准修复方案 risk_identification: control_measures: responsible_person: emergency_materials:",
+    "materials": [
+      {
+        "name": "材料A",
+        "batch": "legacy",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "risk_level": "low",
+    "status": "in_progress",
+    "created_at": "2026-08-25T15:58:56.820999313Z",
+    "updated_at": "2026-08-25T15:58:56.825760757Z",
+    "procedures": [
+      {
+        "id": "PR-1787673536824355586",
+        "project_id": "RP-20260825-997440",
+        "sequence": 1,
+        "name": "清理",
+        "technician": "技师",
+        "started_at": "2026-08-25T15:57:56Z",
+        "ended_at": "2026-08-25T15:58:56Z",
+        "environment": "20C",
+        "instruction": "按方案",
+        "result": "完成",
+        "revision": 2,
+        "evidence_ids": [
+          "self-ev"
+        ],
+        "completed": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "self-ev",
+        "project_id": "RP-20260825-997440",
+        "procedure_id": "PR-1787673536824355586",
+        "kind": "photo",
+        "uri": "self://photo",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "captured_at": "2026-08-25T15:58:56Z",
+        "metadata": {
+          "description": "自检照片"
+        }
+      }
+    ],
+    "create_request_id": "self-1787673536820383772",
+    "create_fingerprint": "9f31a89037750b83ff7a4553d74989a5a549cdf91e2d6594cf68d8cb307a51eb",
+    "baseline_fingerprint": "14802fc05a52d8c25a0e6441a7f60544622087d8ec76567efe3793ca243b8758"
+  }
+}
